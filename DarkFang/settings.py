@@ -78,8 +78,11 @@ WSGI_APPLICATION = 'DarkFang.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dfltudntdg62d7',
+        'USER': 'yrjjlfjclvdmtg',
+        'PASSWORD': '19c7a1d4b7edea3393a678bcc7ad1310f79aba3ac4c19f788b76097455ae8bbf',
+        'HOST': 'ec2-52-4-87-74.compute-1.amazonaws.com'
     }
 }
 
